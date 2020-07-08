@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.avatar {
+  background-image: url('./img/avatar.jpg');
+  background-size: cover;
+  background-position: top center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
