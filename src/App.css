@@ -1,40 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  color: white;
+  height: 400px;
+}
+
+.about {
+  text-align: left;
+  padding-left: 150px;
+  width: 60%;
+  height: 100%;
+  background-color: #6d597a;
+  float: left;
+}
+.avatar-wrapper {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  right: 100px;
+}
+
+.avatar-layout {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 8px white solid;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1-about {
+  margin-top: 5px;  
+  margin-bottom: 0px;
+  color: #e56b6f;
+  font-weight: bold;
 }
 
 .avatar {
@@ -43,6 +43,90 @@
   background-position: top center;
   width: 200px;
   height: 200px;
-  border-radius: 100px;
-  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.coin-layout {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #6d597a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content-wrapper {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 150px;
+  height: 300px;
+}
+
+.wrapper {
+  margin-right: 150px;
+  margin-left: 150px;
+  height: 300px;
+}
+
+.formation-wrapper {
+  float: left;
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+}
+
+.skills-wrapper {
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+}
+
+.coins {
+  width: 600px;
+  display: inline-flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.description {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.companies {
+  margin-top: 100px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.list-item {
+  line-height: 25px;
+  margin-bottom: 15px;  
 }
